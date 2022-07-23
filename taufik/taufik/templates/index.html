@@ -1,0 +1,160 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <title>Moh Taufik Hidayat | Portofolio</title>
+    <style>
+        .jumbotron {
+  padding-top: 6rem;
+}
+
+    </style>
+  </head>
+  <body id="home">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark shadow-sm" style="background-color: #1bdde1">
+      <div class="container">
+        <a class="navbar-brand" href="#">Moh Taufik Hidayat</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skill">My Skill</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact Me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- End Navbar -->
+
+    <!-- Jumbotron -->
+    <section class="jumbotron text-center">
+      <img src="{% static "logo.jpg"%}" alt="Raya Adhary" width="200" class="rounded img-thumbnail" />
+      <h1 class="display-4">Moh Taufik Hidayat</h1>
+      <p class="lead">Study | Teknik Informatika</p>
+      <svg id="wave" style="transform:rotate(0deg); transition: 0.3s" viewBox="0 0 1440 260" version="1.1" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0"><stop stop-color="rgba(62, 243, 243, 1)" offset="0%"></stop><stop stop-color="rgba(173.356, 157.027, 120.933, 1)" offset="100%"></stop></linearGradient></defs><path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)" d="M0,78L60,91C120,104,240,130,360,134.3C480,139,600,121,720,104C840,87,960,69,1080,56.3C1200,43,1320,35,1440,56.3C1560,78,1680,130,1800,147.3C1920,165,2040,147,2160,134.3C2280,121,2400,113,2520,99.7C2640,87,2760,69,2880,73.7C3000,78,3120,104,3240,125.7C3360,147,3480,165,3600,143C3720,121,3840,61,3960,56.3C4080,52,4200,104,4320,138.7C4440,173,4560,191,4680,173.3C4800,156,4920,104,5040,69.3C5160,35,5280,17,5400,21.7C5520,26,5640,52,5760,69.3C5880,87,6000,95,6120,117C6240,139,6360,173,6480,169C6600,165,6720,121,6840,117C6960,113,7080,147,7200,138.7C7320,130,7440,78,7560,52C7680,26,7800,26,7920,60.7C8040,95,8160,165,8280,164.7C8400,165,8520,95,8580,60.7L8640,26L8640,260L8580,260C8520,260,8400,260,8280,260C8160,260,8040,260,7920,260C7800,260,7680,260,7560,260C7440,260,7320,260,7200,260C7080,260,6960,260,6840,260C6720,260,6600,260,6480,260C6360,260,6240,260,6120,260C6000,260,5880,260,5760,260C5640,260,5520,260,5400,260C5280,260,5160,260,5040,260C4920,260,4800,260,4680,260C4560,260,4440,260,4320,260C4200,260,4080,260,3960,260C3840,260,3720,260,3600,260C3480,260,3360,260,3240,260C3120,260,3000,260,2880,260C2760,260,2640,260,2520,260C2400,260,2280,260,2160,260C2040,260,1920,260,1800,260C1680,260,1560,260,1440,260C1320,260,1200,260,1080,260C960,260,840,260,720,260C600,260,480,260,360,260C240,260,120,260,60,260L0,260Z"></path></svg>
+    </section>
+    <!-- End Jumbotron -->
+
+    <!-- About -->
+    <section id="about">
+      <div class="container" data-aos="fade-in">
+        <div class="row text-center">
+          <div class="col">
+            <h2 class="mt-3">About Me</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center fs-5 text-center">
+          <div class="col-md-4" data-aos="fade-right" data-aos-duration="4000">
+            <p> Hal-hal sederhana dalam hidup memang yang paling luar biasa, hanya orang-orang yang bijak yang dapat memahaminya </p>
+          </div>
+          <div class="col-md-4" data-aos="fade-left" data-aos-duration="4000">
+            <p>Satu di antara rahasia untuk mendapatkan kebahagiaan hidup adalah terus menerus melakukan sesuatu yang sederhana</p>
+          </div>
+        </div>
+      </div>
+      <svg id="wave" style="transform:rotate(0deg); transition: 0.3s" viewBox="0 0 1440 240" version="1.1" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0"><stop stop-color="rgba(62, 243, 243, 1)" offset="0%"></stop><stop stop-color="rgba(173.356, 157.027, 120.933, 1)" offset="100%"></stop></linearGradient></defs><path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)" d="M0,168L30,152C60,136,120,104,180,76C240,48,300,24,360,12C420,0,480,0,540,20C600,40,660,80,720,112C780,144,840,168,900,148C960,128,1020,64,1080,48C1140,32,1200,64,1260,76C1320,88,1380,80,1440,64C1500,48,1560,24,1620,24C1680,24,1740,48,1800,76C1860,104,1920,136,1980,156C2040,176,2100,184,2160,180C2220,176,2280,160,2340,160C2400,160,2460,176,2520,152C2580,128,2640,64,2700,52C2760,40,2820,80,2880,116C2940,152,3000,184,3060,172C3120,160,3180,104,3240,68C3300,32,3360,16,3420,24C3480,32,3540,64,3600,64C3660,64,3720,32,3780,28C3840,24,3900,48,3960,72C4020,96,4080,120,4140,132C4200,144,4260,144,4290,144L4320,144L4320,240L4290,240C4260,240,4200,240,4140,240C4080,240,4020,240,3960,240C3900,240,3840,240,3780,240C3720,240,3660,240,3600,240C3540,240,3480,240,3420,240C3360,240,3300,240,3240,240C3180,240,3120,240,3060,240C3000,240,2940,240,2880,240C2820,240,2760,240,2700,240C2640,240,2580,240,2520,240C2460,240,2400,240,2340,240C2280,240,2220,240,2160,240C2100,240,2040,240,1980,240C1920,240,1860,240,1800,240C1740,240,1680,240,1620,240C1560,240,1500,240,1440,240C1380,240,1320,240,1260,240C1200,240,1140,240,1080,240C1020,240,960,240,900,240C840,240,780,240,720,240C660,240,600,240,540,240C480,240,420,240,360,240C300,240,240,240,180,240C120,240,60,240,30,240L0,240Z"></path></svg>
+    </section>
+    <!-- End About -->
+
+    <!-- Project -->
+    <section id="skill">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col" data-aos="fade-down">
+            <h2>My Skill</h2>
+          </div>
+        </div>
+        HTML
+        <div class="progress mb-2">
+            <div class="progress-bar bg-danger" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+          </div>
+        CSS  
+          <div class="progress mb-2">
+            <div class="progress-bar bg-secondary" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+          </div>
+        JavaScript
+          <div class="progress mb-2">
+            <div class="progress-bar bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+          </div>
+        Python  
+          <div class="progress mb-3">
+            <div class="progress-bar bg-primary" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
+          </div>
+        </div>
+      </div>
+      <svg id="wave" style="transform:rotate(180deg); transition: 0.3s" viewBox="0 0 1440 240" version="1.1" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0"><stop stop-color="rgba(62, 243, 243, 1)" offset="0%"></stop><stop stop-color="rgba(173.356, 157.027, 120.933, 1)" offset="100%"></stop></linearGradient></defs><path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)" d="M0,48L30,64C60,80,120,112,180,124C240,136,300,128,360,116C420,104,480,88,540,104C600,120,660,168,720,164C780,160,840,104,900,72C960,40,1020,32,1080,36C1140,40,1200,56,1260,80C1320,104,1380,136,1440,136C1500,136,1560,104,1620,80C1680,56,1740,40,1800,60C1860,80,1920,136,1980,136C2040,136,2100,80,2160,56C2220,32,2280,40,2340,36C2400,32,2460,16,2520,24C2580,32,2640,64,2700,96C2760,128,2820,160,2880,180C2940,200,3000,208,3060,176C3120,144,3180,72,3240,56C3300,40,3360,80,3420,80C3480,80,3540,40,3600,52C3660,64,3720,128,3780,128C3840,128,3900,64,3960,68C4020,72,4080,144,4140,152C4200,160,4260,104,4290,76L4320,48L4320,240L4290,240C4260,240,4200,240,4140,240C4080,240,4020,240,3960,240C3900,240,3840,240,3780,240C3720,240,3660,240,3600,240C3540,240,3480,240,3420,240C3360,240,3300,240,3240,240C3180,240,3120,240,3060,240C3000,240,2940,240,2880,240C2820,240,2760,240,2700,240C2640,240,2580,240,2520,240C2460,240,2400,240,2340,240C2280,240,2220,240,2160,240C2100,240,2040,240,1980,240C1920,240,1860,240,1800,240C1740,240,1680,240,1620,240C1560,240,1500,240,1440,240C1380,240,1320,240,1260,240C1200,240,1140,240,1080,240C1020,240,960,240,900,240C840,240,780,240,720,240C660,240,600,240,540,240C480,240,420,240,360,240C300,240,240,240,180,240C120,240,60,240,30,240L0,240Z"></path></svg>
+    </section>
+    <!-- End Project -->
+
+    <!-- Contact -->
+    <section id="contact">
+      <div class="container" data-aos="fade-down">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>Contact Me</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <form data-aos="fade-right">
+              <div class="mb-3">
+                <label for="name">Nama Lengkap</label>
+                <input type="text" class="form-control" id="name" aria-describedby="name" />
+              </div>
+              <div class="mb-3">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" aria-describedby="email" />
+              </div>
+              <div class="mb-3">
+                <label for="pesan">Pesan</label>
+                <textarea class="form-control" id="pesan" rows="3"></textarea>
+              </div>
+              <button type="submit" class="btn btn-info">Kirim</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <svg id="wave" style="transform:rotate(0deg); transition: 0.3s" viewBox="0 0 1440 240" version="1.1" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0"><stop stop-color="rgba(62, 243, 243, 1)" offset="0%"></stop><stop stop-color="rgba(173.356, 157.027, 120.933, 1)" offset="100%"></stop></linearGradient></defs><path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)" d="M0,48L26.7,64C53.3,80,107,112,160,124C213.3,136,267,128,320,116C373.3,104,427,88,480,104C533.3,120,587,168,640,164C693.3,160,747,104,800,72C853.3,40,907,32,960,36C1013.3,40,1067,56,1120,80C1173.3,104,1227,136,1280,136C1333.3,136,1387,104,1440,80C1493.3,56,1547,40,1600,60C1653.3,80,1707,136,1760,136C1813.3,136,1867,80,1920,56C1973.3,32,2027,40,2080,36C2133.3,32,2187,16,2240,24C2293.3,32,2347,64,2400,96C2453.3,128,2507,160,2560,180C2613.3,200,2667,208,2720,176C2773.3,144,2827,72,2880,56C2933.3,40,2987,80,3040,80C3093.3,80,3147,40,3200,52C3253.3,64,3307,128,3360,128C3413.3,128,3467,64,3520,68C3573.3,72,3627,144,3680,152C3733.3,160,3787,104,3813,76L3840,48L3840,240L3813.3,240C3786.7,240,3733,240,3680,240C3626.7,240,3573,240,3520,240C3466.7,240,3413,240,3360,240C3306.7,240,3253,240,3200,240C3146.7,240,3093,240,3040,240C2986.7,240,2933,240,2880,240C2826.7,240,2773,240,2720,240C2666.7,240,2613,240,2560,240C2506.7,240,2453,240,2400,240C2346.7,240,2293,240,2240,240C2186.7,240,2133,240,2080,240C2026.7,240,1973,240,1920,240C1866.7,240,1813,240,1760,240C1706.7,240,1653,240,1600,240C1546.7,240,1493,240,1440,240C1386.7,240,1333,240,1280,240C1226.7,240,1173,240,1120,240C1066.7,240,1013,240,960,240C906.7,240,853,240,800,240C746.7,240,693,240,640,240C586.7,240,533,240,480,240C426.7,240,373,240,320,240C266.7,240,213,240,160,240C106.7,240,53,240,27,240L0,240Z"></path></svg>
+    </section>
+    <!-- End Contact -->
+
+    <!-- Footer -->
+    <footer>
+      <footer class="bg-info text-center pb-3">
+      <p>
+        Created with <i class="bi bi-suit-heart-fill text-danger"></i> by 
+        <a href="#" class="text-dark fw-bold">Ach Taufik Hidayat</a>
+      </p>
+    </footer>
+    <!-- Akhir Footer -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Inisialisasi AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+    AOS.init();
+    </script>
+  
+  </body>
+</html>
